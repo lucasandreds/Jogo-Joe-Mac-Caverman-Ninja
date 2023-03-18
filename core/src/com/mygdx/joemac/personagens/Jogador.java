@@ -112,7 +112,7 @@ public class Jogador {
 	 * todas os recursos necessarios
 	 **/
 	public void criarJogador() {
-		jogador = new Texture(Gdx.files.internal("Imagens/joe.png"));
+		jogador = new Texture(Gdx.files.internal("desktop/Imagens/joe.png"));
 		frames = TextureRegion.split(jogador, jogador.getWidth() / QUANTIDADE_COLUNAS,
 				jogador.getHeight() / QUANTIDADE_LINHAS);
 		separaFrames();
@@ -216,9 +216,9 @@ public class Jogador {
 
 	/** Funcao respons�vel por inicializar os sons feitos pelo jogador **/
 	private void inicializaMusicas() {
-		somAtaque = Gdx.audio.newSound(Gdx.files.internal("Sons/JoeAtaque.wav"));
-		somSuperPulo = Gdx.audio.newSound(Gdx.files.internal("Sons/JoeSuperPulo.wav"));
-		somCaindoChao = Gdx.audio.newSound(Gdx.files.internal("Sons/JoeCaindoChao.wav"));
+		somAtaque = Gdx.audio.newSound(Gdx.files.internal("desktop/Sons/JoeAtaque.wav"));
+		somSuperPulo = Gdx.audio.newSound(Gdx.files.internal("desktop/Sons/JoeSuperPulo.wav"));
+		somCaindoChao = Gdx.audio.newSound(Gdx.files.internal("desktop/Sons/JoeCaindoChao.wav"));
 	}
 
 	/** Funcao responsavel por desenhar **/

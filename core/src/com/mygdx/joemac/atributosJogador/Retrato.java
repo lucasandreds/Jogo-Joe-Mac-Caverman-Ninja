@@ -12,7 +12,7 @@ public class Retrato extends Atributos {
 	@Override
 	/** Responsavel por criar o retrato **/
 	public void criaAtributo() {
-		retrato = new Texture("Imagens/Retrato.png");
+		retrato = new Texture("desktop/Imagens/Retrato.png");
 		
 		x = getXEstipulado() - VARIACAO;
 		y = getYEstipulado() - VARIACAO;

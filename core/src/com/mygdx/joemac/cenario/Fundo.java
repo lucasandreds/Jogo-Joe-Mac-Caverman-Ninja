@@ -19,12 +19,12 @@ public class Fundo extends Cenario {
 	/** Responsavel por criar o cenario de fundo, como a fase inicial e a menina**/
 	public void criaCenario() {
 		framesMenina = new TextureRegion[9]; // Vai receber os frames ja divididos
-		background = new Texture(Gdx.files.internal("Imagens/firstLevel.png"));
+		background = new Texture(Gdx.files.internal("desktop/Imagens/firstLevel.png"));
 		sprite = new Sprite(background);
 		sprite.setPosition(0, 0);
 		sprite.setSize(LARGURA_TELA, ALTURA_TELA);
 		
-		menina = new Texture(Gdx.files.internal("Imagens/Menina.png"));
+		menina = new Texture(Gdx.files.internal("desktop/Imagens/Menina.png"));
 		
 		frames = TextureRegion.split(menina, menina.getWidth() / 9, menina.getHeight() / 1);
 		separaFrames();

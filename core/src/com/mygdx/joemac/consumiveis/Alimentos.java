@@ -22,7 +22,7 @@ public class Alimentos extends Consumiveis {
 	 **/
 	public void criarConsumiveis(int x, int y) {
 		framesAlimentos = new TextureRegion[48]; // Vai receber os frames ja divididos
-		alimentos = new Texture(Gdx.files.internal("Imagens/comidas.png")); // Pega a imagem
+		alimentos = new Texture(Gdx.files.internal("desktop/Imagens/comidas.png")); // Pega a imagem
 
 		frames = TextureRegion.split(alimentos, alimentos.getWidth() / 8, alimentos.getHeight() / 6);
 

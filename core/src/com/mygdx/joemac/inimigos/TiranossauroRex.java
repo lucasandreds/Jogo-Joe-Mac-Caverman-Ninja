@@ -40,7 +40,7 @@ public class TiranossauroRex extends Inimigos{
 
 	public void inicializaDinossauro() {
 		framesTiranossauro = new TextureRegion[6]; // Vai receber os frames ja divididos
-		tiranossauro = new Texture(Gdx.files.internal("Imagens/trex.png")); // Pega a imagem
+		tiranossauro = new Texture(Gdx.files.internal("desktop/Imagens/trex.png")); // Pega a imagem
 
 		frames = TextureRegion.split(tiranossauro, tiranossauro.getWidth() / 3, tiranossauro.getHeight() / 2);
 

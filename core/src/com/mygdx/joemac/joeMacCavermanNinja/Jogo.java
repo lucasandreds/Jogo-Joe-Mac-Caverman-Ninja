@@ -52,7 +52,7 @@ public class Jogo implements Screen {
 		Gdx.graphics.requestRendering();
 
 		/* Musica de fundo */
-		musicaFundo = Gdx.audio.newMusic(Gdx.files.internal("Sons/BackgroundMusic.mp3"));
+		musicaFundo = Gdx.audio.newMusic(Gdx.files.internal("desktop/Sons/BackgroundMusic.mp3"));
 		musicaFundo.setLooping(true);
 		musicaFundo.play();
 

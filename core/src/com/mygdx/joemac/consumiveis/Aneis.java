@@ -28,7 +28,7 @@ public class Aneis extends Consumiveis {
 	public void criarConsumiveis(int x, int y) {
 		// TODO Auto-generated method stub
 		framesAneis = new TextureRegion[3]; // Vai receber os frames ja divididos
-		aneis = new Texture(Gdx.files.internal("Imagens/AneisArmas.png")); // Pega a imagem
+		aneis = new Texture(Gdx.files.internal("desktop/Imagens/AneisArmas.png")); // Pega a imagem
 
 		frames = TextureRegion.split(aneis, aneis.getWidth() / 3, aneis.getHeight());
 

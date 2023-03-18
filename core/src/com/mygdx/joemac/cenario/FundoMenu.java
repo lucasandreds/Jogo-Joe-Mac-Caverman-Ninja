@@ -16,7 +16,7 @@ public class FundoMenu extends Cenario {
 	@Override
 	/** Responsavel por criar o fundo que aparece na tela de menu **/
 	public void criaCenario() {
-		background = new Texture(Gdx.files.internal("Imagens/menu.png"));
+		background = new Texture(Gdx.files.internal("desktop/Imagens/menu.png"));
 		sprite = new Sprite(background);
 		sprite.setPosition(0,0);
 		sprite.setSize(LARGURA_TELA,ALTURA_TELA);

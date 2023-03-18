@@ -43,7 +43,7 @@ public class Pterodactilo extends Inimigos {
 		this.y = y;
 
 		framesPterodactilo = new TextureRegion[7]; // Vai receber os frames ja divididos
-		pterodactilo = new Texture(Gdx.files.internal("Imagens/pterodactilo.png")); // Pega a imagem
+		pterodactilo = new Texture(Gdx.files.internal("desktop/Imagens/pterodactilo.png")); // Pega a imagem
 
 		frames = TextureRegion.split(pterodactilo, pterodactilo.getWidth() / 7, pterodactilo.getHeight() / 1);
 

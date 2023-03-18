@@ -27,7 +27,7 @@ public class Ovo extends Objetos  {
 		this.y = 0;
 		
 		ovoFrames = new TextureRegion[6];
-		ovo = new Texture(Gdx.files.internal("Imagens/ovo.png"));
+		ovo = new Texture(Gdx.files.internal("desktop/Imagens/ovo.png"));
 		frames = TextureRegion.split(ovo, ovo.getWidth() / 6, ovo.getHeight() / 1);
 		separaFrames();
 		criarHitBox(ovo.getHeight() / 1, ovo.getWidth() / 6, this.x, this.y);

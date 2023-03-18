@@ -58,10 +58,10 @@ public abstract class Armas implements HitBox {
 	
 	/** Responsavel por criar os frames das armas **/
 	public void criaArmas() {
-		armasPequenas = new Texture(Gdx.files.internal("Imagens/ArmasPequenas.png")); 
+		armasPequenas = new Texture(Gdx.files.internal("desktop/Imagens/ArmasPequenas.png")); 
 		framesPequenas = TextureRegion.split(armasPequenas,armasPequenas.getWidth()/QUANTIDADE_COLUNAS,armasPequenas.getHeight()/QUANTIDADE_LINHAS); 
 		
-		armasGrandes = new Texture(Gdx.files.internal("Imagens/ArmasGrandes.png")); 
+		armasGrandes = new Texture(Gdx.files.internal("desktop/Imagens/ArmasGrandes.png")); 
 		framesGrandes = TextureRegion.split(armasGrandes,armasGrandes.getWidth()/QUANTIDADE_COLUNAS,armasGrandes.getHeight()/QUANTIDADE_LINHAS); 
 		separaframes();
 	}

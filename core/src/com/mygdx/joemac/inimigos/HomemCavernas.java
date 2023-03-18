@@ -54,7 +54,7 @@ public class HomemCavernas extends Inimigos{
 		this.y = y;
 
 		framesHomemDasCavernas = new TextureRegion[48]; // Vai receber os frames ja divididos
-		homemCavernas = new Texture(Gdx.files.internal("Imagens/homemCavernas.png")); // Pega a imagem
+		homemCavernas = new Texture(Gdx.files.internal("desktop/Imagens/homemCavernas.png")); // Pega a imagem
 
 		frames = TextureRegion.split(homemCavernas, homemCavernas.getWidth() / 8, homemCavernas.getHeight() / 6);
 

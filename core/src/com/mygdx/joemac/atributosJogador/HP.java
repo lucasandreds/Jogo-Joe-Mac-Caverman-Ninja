@@ -16,7 +16,7 @@ public class HP extends Atributos {
 	@Override
 	/** Responsavel por criar o HP na tela **/
 	public void criaAtributo() {
-		imagemHP = new Texture("Imagens/BarraVida.png");
+		imagemHP = new Texture("desktop/Imagens/BarraVida.png");
 		
 		framesHP = new TextureRegion[QUANTIDADE_COLUNAS];
 		frames = TextureRegion.split(imagemHP,imagemHP.getWidth()/QUANTIDADE_COLUNAS,imagemHP.getHeight()); 

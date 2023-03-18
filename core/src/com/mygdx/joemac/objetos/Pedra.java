@@ -26,7 +26,7 @@ public class Pedra extends Objetos{
 		this.y = 140;
 
 		pedraFrames = new TextureRegion[4];
-		pedra = new Texture(Gdx.files.internal("Imagens/pedra.png"));
+		pedra = new Texture(Gdx.files.internal("desktop/Imagens/pedra.png"));
 		frames = TextureRegion.split(pedra, pedra.getWidth() / 4, pedra.getHeight() / 1);
 
 		separaFrames();

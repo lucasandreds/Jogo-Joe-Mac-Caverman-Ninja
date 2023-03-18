@@ -14,7 +14,7 @@ public class Vida extends Atributos {
 	@Override
 	/** Responsavel por criar a vida e seu desenho **/
 	public void criaAtributo() {
-		vida = new Texture("Imagens/Vidas.png");
+		vida = new Texture("desktop/Imagens/Vidas.png");
 		font = new BitmapFont();
 		font.getData().setScale(3,2); 
 		
